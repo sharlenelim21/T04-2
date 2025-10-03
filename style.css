@@ -74,6 +74,12 @@ main h1 {
     text-align: left;
 }
 
+.responsive-svg-container {
+margin: 0 auto; /* center */
+width: 100%; /* fill parent width */
+max-width: 1200px; /* cap max width */
+}
+
 /* Content Boxes */
 .content-box {
     background-color: white;
