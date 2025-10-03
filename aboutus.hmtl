@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+   <header>
+     <div class="topnav" id="myTopnav">
+    <a href="javascript:void(0);" class="logo" data-nav="index.html">
+    <img src="image/PowerIcon.png" alt="Power Appliances Logo">
+    </a>
+    <a href="javascript:void(0);" data-nav="index.html">Home</a>
+    <a href="javascript:void(0);" data-nav="televisions.html">Televisions</a>
+    <a href="javascript:void(0);" data-nav="aboutus.html">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+    </div>
+  </header>
+    <main>
+        <h1>About Our Company</h1>
+        <p>Power Appliances is dedicated to helping Australians make informed choices.</p>  
+        <p>Our mission is to promote sustainable living by providing accessible information on energy efficiency.
+        </p>
+        <p>
+            We focus on appliances commonly used in Australian households and provide guidance on selecting products with the best energy ratings.
+        </p>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; <span id="year"></span> Sharlene Lim Khai Xing. Assisted by ChatGPT.</p>
+        </div>
+</footer>
+</body>
+</html>
