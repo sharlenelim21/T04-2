@@ -21,22 +21,17 @@
     </a>
     </div>
   </header>
-
-  <main>
-    <h1>Welcome to Power Appliances!</h1>
-    <p>
-      Save energy, save money, save the planet.  
-      Choose appliances with higher star ratings — Together, we can make a difference!
-    </p>
-    <p>
-      Explore our site to learn more about the energy consumption of televisions in the Australian market.
-    </p>
-  </main>
-
+    <h1>Appliance Energy Consumption</h1>
+    <div id="content"></div>
+    <!-- Give the SVG a size so shapes can be seen -->
+    <svg width="300" height="150"></svg>
   <footer>
     <div class="footer-container">
       <p>&copy; <span id="year"></span> Sharlene Lim Khai Xing. Assisted by ChatGPT.</p>
     </div>
   </footer>
+  <!-- Load D3 first, then your D3 code file -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="energy-d3.js"></script>
 </body>
 </html>
